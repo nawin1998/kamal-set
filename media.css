@@ -1,0 +1,274 @@
+@media only screen and (min-width:200px) and (max-width:912px){
+
+    html{
+        overflow-x: hidden;
+    }
+    .slide{
+        background-size: cover;
+        min-height: 1px;
+    }
+    .slide .img1{
+        position: relative;
+        height: 30px;
+        width: 70px;
+        top: 10px;
+        left: 20px;
+    }
+    .slide .img1 img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .slide .con1{
+        position: relative;
+        top: 20px;
+        left: 5%;
+    }
+    
+    .slide .con1 h1{
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: bolder;
+    }
+    
+    .slide .con1 .btn1{
+        padding: 1px 2px;
+        margin-left: 2%;
+        border: none;
+        font-size: larger;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    
+    .slide .con1 .btn1:hover{
+        background-color: #ff0000;
+        color: white;
+        transition: 1s;
+    }
+    
+    .slide .arrow .btn-left i{
+        position: relative;
+        top: 2px;
+        left: 250px;
+        height: 25px;
+        width: 25px;
+        padding: 3px;
+        font-size: 20px;
+        border-radius: 50%;
+        justify-content: center;
+        background-color: white;
+        color: black;
+    }
+    
+    .slide .arrow .btn-left i:hover{
+        background-color: #ff0000;
+        color: #ffffff;
+    }
+    
+    .slide .arrow .btn-right i{
+        position: relative;
+        top: 2px;
+        left: 240px;
+        height: 25px;
+        width: 25px;
+        padding: 3px;
+        font-size: 20px;
+        border-radius: 50%;
+        justify-content: center;
+        background-color: white;
+        color: black;
+    }
+    
+    .slide .arrow .btn-right i:hover{
+        background-color: #ff0000;
+        color: #ffffff;
+    }
+    .hamburger{
+        display: block;
+    }
+    /* header start */
+    header{
+        height: 80px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background-color: #021626;
+    }
+    .navlinks{
+        position: relative;
+        display: block;
+        height: 25rem;
+        width: 90%;
+        left: 5%;
+        top: 80px;
+        background-color: black;
+    }
+    header .nav .navlinks ul{
+        position: relative;
+        display: block;
+        
+        
+    }
+    header .nav .navlinks a{
+        position: relative;
+        right: 55px;
+        line-height: 1.5;
+    }
+    .navlinks{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 4px;
+        background: rgb(5, 238, 55);
+        z-index: 1000;
+        
+    }
+    /* header end */
+    
+    /* about start */
+    .About-container{
+        height: 42rem;
+    }
+    .About-container .about1{
+        height: 42rem;
+        width: 100%;
+    }
+    .About-container .about1 img{
+        height: 42rem;
+        width: 100%;
+    }
+    .title1{
+        position: relative;
+        left: 30%;
+        top: -40rem;
+        width: 33%;
+        height: 60px;
+        color: white;
+        padding-top: 10px;
+        text-align: center;
+        background-color: #021626;
+    }
+    .about1-img{
+        position: relative;
+        top: -38rem;
+        left: 5%;
+        height: 100%;
+        width: 90%;
+    }
+    .about1-img img{
+        height: 100%;
+        width: 90%;
+    }
+    .about1-p{
+        position: relative;
+        top: -48%;
+        width: 80%;
+        left: 10%;
+        font-size: 10px;
+        text-align: center;
+    }
+    .about1-btn{
+        padding: 5px 10px;
+        border: none;
+        font-size: small;
+        font-weight: bolder;
+        border-radius: 5px;
+        position: relative;
+        top: -46%;
+        margin-left: 38%;
+        background-color: black;
+        color: white;
+    }
+    .about1-btn:hover{
+        background-color: #ff0000;
+        color: white;
+        transition: 1s;
+    }
+    /* about end */
+    
+    /* couple start */
+    .couple1 h3, h1, p{
+        margin-top: -50px;
+        padding-left: 10px;
+    }
+    .couple1-btn{
+        padding: 5px 10px;
+        border: none;
+        font-size: larger;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin-top: -1px;
+        margin-left: 10px;
+        background-color: white;
+        color: black;
+    }
+    .couple1-btn:hover{
+        background-color: #ff0000;
+        color: white;
+        transition: 1s;
+    }
+    /* couple end */
+    
+    /* gallery start */
+    .title2{
+        position: relative;
+        left: 20%;
+        top: 15px;
+        width: 60%;
+        height: 80%;
+        padding: 5px;
+        color: white;
+        text-align: center;
+        background-color: #021626;
+    }
+    .gallery-img1{
+        margin-left: 15px;
+    }
+    .gallery-img2{
+        margin-left: 15px;
+    }
+    .gallery-img3{
+        margin-left: 15px;
+    }
+    .gallery-img4{
+        margin-left: 15px;
+    }
+    .gallery-img5{
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    .gallery-img6{
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    
+    /* gallery end */
+    
+    
+    /* footer start */
+    .footer{
+        height: 62rem;
+        background-color: #021626;
+    }
+    .footer-sub{
+        position: relative;
+        top: 70px;
+    }
+    /* .footer-con p{
+        position: relative;
+        left: 1px;
+    } */
+    .footer p{
+        position: relative;
+        width: 100%;
+        left: 10px;
+    }
+    /* footer end */
+    
+    }
